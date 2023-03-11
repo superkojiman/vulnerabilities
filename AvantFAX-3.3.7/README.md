@@ -4,9 +4,9 @@ AvantFAX is an open-source PHP web application designed for managing and sending
 
 On November 2022, a researcher from [Cycura's](https://www.cycura.com) offensive security research team discovered three vulnerabilities affecting AvantFAX 3.3.7. Exploitation of these vulnerabilities may lead to administrator account takeover, sensitive information disclosure, and remote code execution.
  
-1. CVE-2023-23326: Session Hijacking via Authenticated Stored Cross-Site Scripting 
-1. CVE-2023-23327: Unauthenticated Access to AvantFAX Backup Fax Archive and Database 
-1. CVE-2023-23328: Remote Code Execution via PHP Arbitrary File Upload 
+1. [CVE-2023-23326](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-23326): Session Hijacking via Authenticated Stored Cross-Site Scripting 
+1. [CVE-2023-23327](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-23327): Unauthenticated Access to AvantFAX Backup Fax Archive and Database 
+1. [CVE-2023-23328](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-23328): Remote Code Execution via PHP Arbitrary File Upload 
 
 Earlier releases of AvantFAX may also be affected by these vulnerabilities. 
 
